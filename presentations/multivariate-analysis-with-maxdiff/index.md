@@ -86,3 +86,19 @@ The presentation considered several alternative explanations for the observed co
 - **The inverse-Wishart covariance prior.** Re-estimating the hierarchical model in Stan with a more flexible covariance prior did not solve the problem.
 
 Taken together, these tests shifted the explanation away from dataset choice, task count, coding, or covariance-prior specification and toward the structure of the best-worst measurement task itself.
+
+## Scope and Non-Claims
+
+The presentation was not a general critique of MaxDiff as a measurement method. Its claims were narrower.
+
+It did **not** argue that MaxDiff fails to recover aggregate item ordering or relative preference. In the simulations, aggregate ordering was recovered well.
+
+It did **not** argue that every downstream use of MaxDiff is invalid. The concern applies specifically to analyses that rely on the respondent-level covariance or correlation structure among estimated utilities.
+
+It did **not** claim that increasing the number of tasks, changing coding, changing covariance priors, anchoring, or transforming utilities into probabilities would necessarily have no effect on any aspect of estimation. The presentation tested whether those changes restored the underlying correlation structure, and they did not.
+
+The presentation did **not** claim that no factor-analytic or psychometric method can ever be applied to data collected using a best-worst task. Alternative approaches may transform the responses, derive rankings or other representations, or model the choice data directly. Those approaches are analytically distinct from treating the estimated respondent-level MaxDiff utilities themselves as ordinary multivariate variables.
+
+Accordingly, evidence that a study performed a factor-like analysis on transformed MaxDiff responses does not by itself contradict the claim examined here. The relevant question is whether the analysis relies on the covariance structure of the estimated MaxDiff utilities.
+
+The central caution was therefore specific: respondent-level MaxDiff utilities should not automatically be treated as ordinary multivariate data when the substantive interpretation depends on their covariance structure.
