@@ -114,6 +114,14 @@ When multivariate structure is substantively important, the presentation suggest
 
 The broader recommendation was to choose the measurement approach with the intended downstream analysis in mind, rather than assuming that respondent-level MaxDiff utilities can be substituted for ordinary multivariate measurements.
 
+### Retrospective Technical Note: Exact Linear Dependence
+
+The respondent-level MaxDiff utilities analyzed in the presentation sum to zero across items for each respondent.
+
+This creates an exact linear dependency among the utilities. One item's utility can be determined from the remaining items, which makes the full covariance matrix singular. As a result, ordinary factor analysis or regression using all of the utilities requires some manipulation, such as dropping an item or otherwise modifying the covariance matrix.
+
+This mechanical constraint explains the immediate computational problem demonstrated in the presentation. It is distinct from the presentation's deeper empirical claim: even after accounting for the linear dependency, the correlations among estimated MaxDiff utilities did not recover the underlying correlation structure used to generate the data.
+
 ## Status of This Record
 
 This document is a retrospective record of the claims, evidence, tests, and practical implications presented at the 2019 Advanced Research Techniques Forum. It is not a new empirical analysis and should not be interpreted as a subsequently written conference paper.
