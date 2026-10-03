@@ -39,3 +39,39 @@ In simulations where the true utility means and covariance matrix were known, in
 ### 4. Multivariate analyses that depend on those correlations can therefore be misleading
 
 Factor analysis, regression, segmentation, TURF, and related procedures depend in different ways on relationships among variables. If the covariance or correlation structure in the MaxDiff utilities is an artifact of the measurement exercise rather than a faithful representation of the underlying data-generating process, results from those downstream analyses can be difficult to interpret substantively.
+
+## Evidence and Tests
+
+The presentation used both empirical comparisons and simulation to test whether the observed correlation problem could be explained by features other than the MaxDiff task itself.
+
+### Empirical comparison
+
+In the primary study, respondents were randomly assigned to either a MaxDiff exercise or a Select-any-of-J exercise using the same underlying set of statements. Aggregate item means aligned reasonably well across the two approaches, but the correlation structures differed substantially.
+
+A second dataset using a different set of gaming-related statements produced the same general pattern, reducing the likelihood that the original result was specific to one dataset.
+
+### Simulation with known means and covariance
+
+Synthetic respondent utilities were generated from a known multivariate distribution with specified means and covariance structure. MaxDiff tasks were then simulated using random Gumbel error.
+
+The number of tasks was increased from 12 to 18, 24, 30, 60, and 120. Aggregate item ordering was recovered well, but even at 120 tasks the estimated respondent-level utilities did not recover the true correlation structure.
+
+### Alternative coding
+
+The MaxDiff model was estimated using alternative coding schemes. Mean utilities and bivariate correlations were highly consistent across coding approaches, indicating that the problem was not an artifact of the particular coding convention used.
+
+### Alternative covariance prior
+
+The hierarchical model was re-estimated in Stan using a more flexible covariance specification rather than an inverse-Wishart prior. Separating the estimation of variances and correlations did not restore the true correlation structure.
+
+### Anchored MaxDiff
+
+An indirect anchoring procedure was tested in simulation. Anchoring slightly improved aggregate ordering but did not solve the correlation problem.
+
+### Probability transformation
+
+Transforming MaxDiff utilities into probability-like scores did not solve the issue. The resulting correlations were perturbed rather than restored to the underlying correlation structure.
+
+### Zero-signal simulation
+
+In an additional simulation, all true utilities were set to zero and respondents' MaxDiff choices were generated only by random Gumbel error. The resulting estimated utilities still produced apparent correlations as large as approximately ±0.4.
