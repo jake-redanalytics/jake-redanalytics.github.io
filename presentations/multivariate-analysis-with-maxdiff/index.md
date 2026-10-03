@@ -75,3 +75,14 @@ Transforming MaxDiff utilities into probability-like scores did not solve the is
 ### Zero-signal simulation
 
 In an additional simulation, all true utilities were set to zero and respondents' MaxDiff choices were generated only by random Gumbel error. The resulting estimated utilities still produced apparent correlations as large as approximately ±0.4.
+
+## What the Tests Ruled Out
+
+The presentation considered several alternative explanations for the observed correlation problem. The tests did not support the following explanations:
+
+- **An idiosyncratic dataset.** The same general discrepancy appeared in a second empirical dataset.
+- **Too few MaxDiff tasks.** In simulation, increasing the number of tasks from 12 to 120 did not recover the true correlation structure.
+- **A particular coding convention.** Alternative coding schemes produced essentially the same correlation structure.
+- **The inverse-Wishart covariance prior.** Re-estimating the hierarchical model in Stan with a more flexible covariance prior did not solve the problem.
+
+Taken together, these tests shifted the explanation away from dataset choice, task count, coding, or covariance-prior specification and toward the structure of the best-worst measurement task itself.
