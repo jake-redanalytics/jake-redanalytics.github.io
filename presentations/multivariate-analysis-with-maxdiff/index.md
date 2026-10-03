@@ -113,3 +113,9 @@ When multivariate structure is substantively important, the presentation suggest
 - using scale-response data with a model that explicitly accounts for differences in respondents' scale use.
 
 The broader recommendation was to choose the measurement approach with the intended downstream analysis in mind, rather than assuming that respondent-level MaxDiff utilities can be substituted for ordinary multivariate measurements.
+
+## Status of This Record
+
+This document is a retrospective record of the claims, evidence, tests, and practical implications presented at the 2019 Advanced Research Techniques Forum. It is not a new empirical analysis and should not be interpreted as a subsequently written conference paper.
+
+Future work may extend, refine, or revisit these findings. This record is intended to document what was presented and supported in the 2019 presentation.
