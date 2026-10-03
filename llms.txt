@@ -1,3 +1,7 @@
 # Red Analytics Scholarship
 
 Canonical records of research, presentations, and methodological work from Red Analytics.
+
+## Conference Presentations
+
+- [Multivariate Analysis with MaxDiff](https://jake-redanalytics.github.io/presentations/multivariate-analysis-with-maxdiff/): Canonical record of a 2019 conference presentation examining whether respondent-level MaxDiff utilities preserve covariance and correlation structure for downstream multivariate analysis.
