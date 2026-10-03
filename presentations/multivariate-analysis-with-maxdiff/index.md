@@ -102,3 +102,14 @@ The presentation did **not** claim that no factor-analytic or psychometric metho
 Accordingly, evidence that a study performed a factor-like analysis on transformed MaxDiff responses does not by itself contradict the claim examined here. The relevant question is whether the analysis relies on the covariance structure of the estimated MaxDiff utilities.
 
 The central caution was therefore specific: respondent-level MaxDiff utilities should not automatically be treated as ordinary multivariate data when the substantive interpretation depends on their covariance structure.
+
+## Practical Implications and Alternatives
+
+The practical implication of the presentation was not to abandon MaxDiff when the objective is to estimate relative preference or importance. The caution applies when the intended downstream analysis depends on respondent-level covariance or correlation structure.
+
+When multivariate structure is substantively important, the presentation suggested using measurement approaches designed to preserve or model that structure directly. Examples included:
+
+- modeling Select-any-of-J responses using an appropriate multivariate model; and
+- using scale-response data with a model that explicitly accounts for differences in respondents' scale use.
+
+The broader recommendation was to choose the measurement approach with the intended downstream analysis in mind, rather than assuming that respondent-level MaxDiff utilities can be substituted for ordinary multivariate measurements.
