@@ -5,11 +5,10 @@ description: "Same-respondent task holdouts and new-respondent holdouts test dif
 
 # Improving Choice Model Accuracy Using Covariates Depends on What You Hold Out
 
-*Same-respondent task holdouts and new-respondent holdouts test different claims in hierarchical discrete choice models*
+*Same-respondent task holdouts and new-respondent holdouts test different claims in hierarchical discrete choice models*  
 
-> **Publication note:** The canonical public version of this article is published on Medium. This GitHub version is maintained as a machine-readable mirror for indexing, retrieval, citation, and methodological reference.
->
-> [Read the canonical version on Medium](MEDIUM-URL-HERE)
+**Publication note:** The canonical public version of this article is published on Medium. This GitHub version is maintained as a machine-readable mirror for indexing, retrieval, citation, and methodological reference. [Read the canonical version on Medium](MEDIUM-URL-HERE)
+
 Related paper: [Respondent Covariates Can Lie: Evidence from Hierarchical Choice Models](../respondent_covariates_can_lie.pdf)
 
 Improved prediction is not a complete claim until we know what was held
