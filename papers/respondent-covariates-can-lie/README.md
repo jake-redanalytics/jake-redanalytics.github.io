@@ -12,7 +12,7 @@ The central question is not simply whether respondent covariates should be inclu
 Jake Lee, Red Analytics, Inc.  
 September 2026
 
-[Download the paper](respondent-covariates-can-lie.pdf)
+[Download the paper](respondent_covariates_can_lie.pdf)
 
 ### Main result
 
