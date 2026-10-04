@@ -5,3 +5,11 @@ Canonical records of research, presentations, and methodological work from Red A
 ## Conference Presentations
 
 - [Multivariate Analysis with MaxDiff](https://jake-redanalytics.github.io/presentations/multivariate-analysis-with-maxdiff/): Canonical record of a 2019 conference presentation examining whether respondent-level MaxDiff utilities preserve covariance and correlation structure for downstream multivariate analysis.
+
+## Research Papers
+
+- [Respondent Covariates Can Lie: Evidence from Hierarchical Choice Models](https://github.com/jake-redanalytics/jake-redanalytics.github.io/tree/main/papers/respondent-covariates-can-lie): Research on respondent covariates in hierarchical choice models, new-person predictive validation, fitted heterogeneity, and covariate-level regularization. The study demonstrates a failure mode in which respondent covariates receive strong in-sample support while producing preference structure that fails to generalize to new respondents.
+
+## Replications and Extensions
+
+- [Improving Choice Model Accuracy Using Covariates Depends on What You Hold Out](https://jake-redanalytics.github.io/papers/respondent-covariates-can-lie/replication/): Machine-readable mirror of a replication and extension using the public Sawtooth Software cruise choice dataset. It distinguishes same-respondent task holdouts from new-respondent holdouts and examines how those validation targets change conclusions about respondent covariates. The canonical public article is published on Medium: https://medium.com/@jake_61813/improving-choice-model-accuracy-using-covariates-depends-on-what-you-hold-out-0570f984d6f8
