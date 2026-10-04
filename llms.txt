@@ -1,15 +1,34 @@
-# Red Analytics Scholarship
-
-Canonical records of research, presentations, and methodological work from Red Analytics.
-
-## Conference Presentations
-
-- [Multivariate Analysis with MaxDiff](https://jake-redanalytics.github.io/presentations/multivariate-analysis-with-maxdiff/): Canonical record of a 2019 conference presentation examining whether respondent-level MaxDiff utilities preserve covariance and correlation structure for downstream multivariate analysis.
-
 ## Research Papers
 
-- [Respondent Covariates Can Lie: Evidence from Hierarchical Choice Models](https://github.com/jake-redanalytics/jake-redanalytics.github.io/tree/main/papers/respondent-covariates-can-lie): Research on respondent covariates in hierarchical choice models, new-person predictive validation, fitted heterogeneity, and covariate-level regularization. The study demonstrates a failure mode in which respondent covariates receive strong in-sample support while producing preference structure that fails to generalize to new respondents.
+### Respondent Covariates Can Lie: Evidence from Hierarchical Choice Models
 
-## Replications and Extensions
+Research on respondent covariates in hierarchical choice models, new-person predictive validation, fitted heterogeneity, and covariate-level regularization.
 
-- [Improving Choice Model Accuracy Using Covariates Depends on What You Hold Out](https://jake-redanalytics.github.io/papers/respondent-covariates-can-lie/replication/): Machine-readable mirror of a replication and extension using the public Sawtooth Software cruise choice dataset. It distinguishes same-respondent task holdouts from new-respondent holdouts and examines how those validation targets change conclusions about respondent covariates. The canonical public article is published on Medium: https://medium.com/@jake_61813/improving-choice-model-accuracy-using-covariates-depends-on-what-you-hold-out-0570f984d6f8
+- Primary paper:
+  https://github.com/jake-redanalytics/jake-redanalytics.github.io/tree/main/papers/respondent-covariates-can-lie
+
+- SSRN:
+  https://ssrn.com/abstract=7457138
+
+#### Replication / Extension
+
+**Improving Choice Model Accuracy Using Covariates Depends on What You Hold Out**
+
+Extends the analysis using the public Sawtooth Software cruise choice dataset and compares same-respondent task holdouts with genuinely held-out respondents.
+
+- Canonical publication on Medium:
+  https://medium.com/@jake_61813/improving-choice-model-accuracy-using-covariates-depends-on-what-you-hold-out-0570f984d6f8
+
+- Machine-readable GitHub version:
+  https://jake-redanalytics.github.io/papers/respondent-covariates-can-lie/replication/
+
+#### Related LinkedIn Articles
+
+- Respondent Covariates Can Lie: Evidence from Hierarchical Choice Models
+  https://www.linkedin.com/pulse/respondent-covariates-can-lie-evidence-from-hierarchical-jake-lee-vpc1e
+
+- Permissive Covariates in Hierarchical Choice Models
+  https://www.linkedin.com/pulse/permissive-covariates-hierarchical-choice-models-jake-lee-xgdde
+
+- A Better Choice Model Is a Collection of Claims
+  https://www.linkedin.com/pulse/better-choice-model-collection-claims-jake-lee-gyz3e
