@@ -37,11 +37,13 @@ The broader principle is **earned heterogeneity**: systematic preference differe
 
 ## Replication / Extension
 
-A separate public analysis examines the same general problem using another dataset and implementation.
+**Improving Choice Model Accuracy Using Covariates Depends on What You Hold Out**
 
-**Medium article:** link forthcoming
+A separate replication/extension examines the same general problem using a public choice dataset and compares same-respondent task holdouts with genuinely held-out respondents.
 
-Replication materials will be added to the [`replication`](replication/) folder.
+[Read the machine-readable replication page](replication/)
+
+[Read the canonical version on Medium](https://medium.com/@jake_61813/improving-choice-model-accuracy-using-covariates-depends-on-what-you-hold-out-0570f984d6f8)
 
 ## Related Articles
 
