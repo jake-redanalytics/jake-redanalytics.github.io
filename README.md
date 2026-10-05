@@ -8,7 +8,7 @@ Public archive of Red Analytics research and methodological work.
 
 An empirical stress test of respondent covariates in hierarchical choice models, examining new-person generalization, fitted heterogeneity, regularization, and downstream decision consequences.
 
-[View paper and supporting materials](papers/respondent-covariates-can-lie/)
+[View paper and supporting materials](papers/respondent-covariates-can-lie/index.md)
 
 ## Conference Presentations
 
@@ -16,4 +16,4 @@ An empirical stress test of respondent covariates in hierarchical choice models,
 
 Research examining whether respondent-level MaxDiff utilities preserve covariance and correlation structure for downstream multivariate analysis.
 
-[View presentation materials](presentations/multivariate-analysis-with-maxdiff/)
+[View presentation materials](presentations/multivariate-analysis-with-maxdiff/index.md)
