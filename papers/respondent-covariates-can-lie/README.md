@@ -41,8 +41,7 @@ The broader principle is **earned heterogeneity**: systematic preference differe
 
 A separate replication/extension examines the same general problem using a public choice dataset and compares same-respondent task holdouts with genuinely held-out respondents.
 
-[Read the machine-readable replication page](replication/)
-
+[Read the machine-readable replication page](https://jake-redanalytics.github.io/papers/respondent-covariates-can-lie/replication/)
 [Read the canonical version on Medium](https://medium.com/@jake_61813/improving-choice-model-accuracy-using-covariates-depends-on-what-you-hold-out-0570f984d6f8)
 
 ## Related Articles
