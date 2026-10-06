@@ -48,9 +48,9 @@ A separate replication/extension examines the same general problem using a publi
 
 Three shorter LinkedIn articles discuss related issues in model validation, respondent covariates, and evidence standards.
 
-1. Link forthcoming
-2. Link forthcoming
-3. Link forthcoming
+1. [Respondent Covariates Can Lie](https://www.linkedin.com/pulse/respondent-covariates-can-lie-evidence-from-hierarchical-jake-lee-vpc1e/)
+2. [Permissive Covariates Are Not Harmless](https://www.linkedin.com/pulse/permissive-covariates-hierarchical-choice-models-jake-lee-xgdde/)
+3. [Better Contains Multiple Claims in Discrete Choice Models](https://www.linkedin.com/pulse/better-choice-model-collection-claims-jake-lee-gyz3e/)
 
 ## Scope
 
